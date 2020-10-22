@@ -11,10 +11,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   },
   plugins: [
-    new CopyPlugin([{
-            from: 'app/scripts/ace.js',
-            to: 'ace.js'
-        }]), 
+    new CopyPlugin([{ from: 'app/scripts', to: '' }]), 
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: 'app/index.html'
