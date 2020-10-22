@@ -8,6 +8,7 @@
     "lint": "eslint app/scripts/*.js"
   },
   "devDependencies": {
+    "copy-webpack-plugin": "^4.6.0", 
     "autoprefixer": "^9.7.6",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.5.3",
