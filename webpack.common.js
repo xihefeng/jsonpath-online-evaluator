@@ -13,7 +13,7 @@ module.exports = {
   plugins: [
     new CopyPlugin([{
             from: 'app/scripts/ace.js',
-            to: 'scripts/ace.js'
+            to: 'ace.js'
         }]), 
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
