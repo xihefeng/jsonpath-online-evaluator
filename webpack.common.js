@@ -4,12 +4,12 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const StylelintPlugin = require('stylelint-webpack-plugin');
 
 module.exports = {
-  entry: {main:'./app/scripts/main.js',ace:'./app/scripts/ace.js'},
+  entry: {main:'./app/scripts/main.js',ace:'./app/scripts/ace.js'}, 
 	output: {
 		//前面添加路径，最后js生成在dist/js文件夹下
 		filename: 'scripts/[name].js',
 		path: path.resolve(__dirname, 'dist')
-	},
+	}, 
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
